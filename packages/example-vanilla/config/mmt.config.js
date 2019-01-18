@@ -1,7 +1,7 @@
 module.exports = {
   entry: './src/index.js',
   // output: '../hellp',
-  verbose: false,
+  verbose: false
   // imageDataUri: false,
   // postCssEnvOptions: {
   //   stage: 0,
