@@ -1,6 +1,6 @@
 {
   "name": "",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Front-end setup for ",
   "main": "src/index.js",
   "scripts": {
@@ -27,7 +27,7 @@
     "regenerator-runtime": "0.12.x"
   },
   "devDependencies": {
-    "@owen.a/mmt-webpack": "0.2.3",
+    "@owen.a/mmt-webpack": "^1.0.0",
     "cross-env": "5.2.x",
     "husky": "1.1.x",
     "lint-staged": "8.0.x"
