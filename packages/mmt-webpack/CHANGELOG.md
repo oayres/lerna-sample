@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/MMTDigital/mmt-webpack/compare/@owen.a/mmt-webpack@1.1.0...@owen.a/mmt-webpack@1.2.0) (2019-01-18)
+
+
+### Features
+
+* **pencil:** add 'graphiteWidth' option ([60b3ed0](https://github.com/MMTDigital/mmt-webpack/commit/60b3ed0))
+
+
+
+
+
 # [1.1.0](https://github.com/MMTDigital/mmt-webpack/compare/@owen.a/mmt-webpack@1.0.3...@owen.a/mmt-webpack@1.1.0) (2019-01-18)
 
 
