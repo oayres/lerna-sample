@@ -1,6 +1,6 @@
 {
   "name": "@owen.a/stylelint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "MMT Digital's base stylelint config",
   "keywords": [
     "mmt",
