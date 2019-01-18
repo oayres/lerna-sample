@@ -1,5 +1,5 @@
 {
-  "name": "@mmtdigital/generate-project",
+  "name": "@owen.a/generate-project",
   "version": "0.1.4",
   "description": "Base MMT repo that powers the generation of MMT front-end projects",
   "main": "index.js",

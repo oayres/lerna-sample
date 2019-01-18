@@ -3,7 +3,7 @@ const stylelintFormatter = require('stylelint-formatter-pretty')
 
 const styleLintOptions = {
   files: './**/*.scss',
-  configFile: require.resolve('@mmtdigital/stylelint-config'),
+  configFile: require.resolve('@owen.a/stylelint-config'),
   formatter: stylelintFormatter,
   fix: true
 }

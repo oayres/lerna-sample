@@ -13,7 +13,7 @@ const config = (options, mmtConfig) => {
               loader: require.resolve('eslint-loader'),
               options: {
                 emitError: true,
-                configFile: require.resolve('@mmtdigital/eslint-config'),
+                configFile: require.resolve('@owen.a/eslint-config'),
                 fix: true
               }
             },

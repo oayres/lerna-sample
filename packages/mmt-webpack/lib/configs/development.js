@@ -9,7 +9,7 @@ module.exports = {
     new WebpackBar({ clear: false }),
     new FriendlyErrorsWebpackPlugin({ clearConsole: true }),
     new StyleLintPlugin({
-      configFile: require.resolve('@mmtdigital/stylelint-config'),
+      configFile: require.resolve('@owen.a/stylelint-config'),
       fix: true
     })
   ]
