@@ -47,7 +47,6 @@ const mergeConfigs = (rootPath, mmtConfig, mmtWebpackConfigExtensions, env, argv
     console.log('Building with the following webpack config', JSON.stringify(mergedConfig, null, 2))
   }
 
-
   return mergedConfig
 }
 
