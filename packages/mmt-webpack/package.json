@@ -84,5 +84,6 @@
   },
   "devDependencies": {
     "npmpub": "^4.1.0"
-  }
+  },
+  "gitHead": "0cf2715cf68d884aca9173ebc671fcf7bcaed7f2"
 }

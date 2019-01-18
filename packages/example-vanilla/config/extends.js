@@ -1,3 +1,0 @@
-exports.webpackDev = {}
-
-exports.webpackProd = {}
