@@ -1,6 +1,6 @@
 {
   "name": "@owen.a/mmt-webpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A consumable webpack config and linting package for MMT Digital projects that is extendable and upgradable",
   "main": "lib/mmt-webpack.js",
   "scripts": {
