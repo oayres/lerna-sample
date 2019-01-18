@@ -1,0 +1,35 @@
+{
+  "name": "{{kebabCase name}}",
+  "version": "0.0.1",
+  "description": "Front-end setup for {{name}}",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development mmt-webpack",
+    "build:dev": "cross-env NODE_ENV=development mmt-webpack --dev",
+    "build:prod": "cross-env NODE_ENV=production mmt-webpack --prod",
+    "lint": "mmt-lint --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "keywords": [
+    "mmt",
+    "mmt-digital",
+    "{{kebabCase name}}"
+  ],
+  "author": "MMT Digital",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "core-js": "2.5.x",
+    "domready": "1.0.x",
+    "regenerator-runtime": "0.12.x"
+  },
+  "devDependencies": {
+    "@mmtdigital/mmt-webpack": "0.1.0",
+    "cross-env": "5.2.x",
+    "husky": "1.1.x",
+    "lint-staged": "8.0.x"
+  }
+}

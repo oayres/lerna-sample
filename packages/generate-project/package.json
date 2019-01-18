@@ -1,0 +1,38 @@
+{
+  "name": "@mmtdigital/generate-project",
+  "version": "0.1.4",
+  "description": "Base MMT repo that powers the generation of MMT front-end projects",
+  "main": "index.js",
+  "scripts": {
+    "dry-release": "npmpub --dry --verbose --no-release",
+    "release": "npmpub --no-release"
+  },
+  "bin": {
+    "generate-project": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMTDigital/mmt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMTDigital/generate-project/issues"
+  },
+  "homepage": "https://github.com/MMTDigital/generate-project#readme",
+  "dependencies": {
+    "clear": "^0.1.0",
+    "inquirer": "^6.2.0",
+    "kleur": "^2.0.2",
+    "node-plop": "^0.16.0",
+    "ora": "^3.0.0",
+    "recursive-copy": "^2.0.9",
+    "rimraf": "^2.6.2",
+    "update-notifier": "^2.5.0",
+    "yargs": "^12.0.2"
+  },
+  "devDependencies": {
+    "npmpub": "^4.1.0"
+  }
+}
