@@ -28,6 +28,8 @@ import '@polyfills'
 import domReady from 'domready'
 import MyComponent from '@components/MyComponent'
 
+console.log('Test')
+
 class App {
   constructor () {
     new MyComponent('js-my-wrapper-class', 'js-my-button-class')
