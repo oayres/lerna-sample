@@ -1,0 +1,47 @@
+{
+  "name": "@owen.a/eslint-config",
+  "version": "1.0.0",
+  "description": "MMT Digital's base ESLint config",
+  "keywords": [
+    "mmt",
+    "digital",
+    "eslint"
+  ],
+  "author": "MMT Digital",
+  "license": "ISC",
+  "homepage": "https://github.com/mmtdigital/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MMTDigital/eslint-config-mmtdigital.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmtdigital/eslint-config/issues"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "npmpub": "^4.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.8.0",
+    "eslint-plugin-import": ">=2.14.0",
+    "eslint-plugin-node": ">=6.0.0",
+    "eslint-plugin-promise": ">=3.6.0",
+    "eslint-plugin-standard": ">=3.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "babel-eslint": "^10.0.1"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "dry-release": "npmpub --dry --verbose --no-release",
+    "release": "npmpub --no-release"
+  },
+  "dependencies": {
+    "babel-eslint": "^9.0.0"
+  }
+}
