@@ -1,6 +1,6 @@
 {
   "name": "@owen.a/mmt-webpack",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A consumable webpack config and linting package for MMT Digital projects that is extendable and upgradable",
   "main": "lib/mmt-webpack.js",
   "scripts": {
@@ -34,8 +34,8 @@
     "@babel/plugin-proposal-decorators": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
-    "@owen.a/eslint-config": "^1.1.0",
-    "@owen.a/stylelint-config": "^2.0.1",
+    "@owen.a/eslint-config": "^1.1.1",
+    "@owen.a/stylelint-config": "^2.1.0",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.4",
     "babel-plugin-module-resolver": "^3.1.1",

@@ -1,6 +1,6 @@
 {
   "name": "@owen.a/eslint-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "MMT Digital's base ESLint config",
   "keywords": [
     "mmt",

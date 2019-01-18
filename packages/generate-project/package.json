@@ -1,6 +1,6 @@
 {
   "name": "@owen.a/generate-project",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "description": "Base MMT repo that powers the generation of MMT front-end projects",
   "main": "index.js",
   "scripts": {
