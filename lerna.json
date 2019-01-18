@@ -5,7 +5,6 @@
   "version": "independent",
   "npmClient": "yarn",
   "publish": {
-    "ignoreChanges": ["example-*"],
     "message": "chore(release) owen: publish"
   }
 }
