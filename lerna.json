@@ -6,6 +6,7 @@
   "npmClient": "yarn",
   "publish": {
     "ignoreChanges": ["example-*"],
-    "message": "chore(release) owen: publish"
+    "message": "chore(release) owen: publish",
+    "conventionalCommits": true
   }
 }
