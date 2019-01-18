@@ -1,0 +1,11 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "publish": {
+    "ignoreChanges": ["ignored-file", "*.md"],
+    "message": "chore(release) owen: publish"
+  }
+}
